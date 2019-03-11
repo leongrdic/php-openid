@@ -3,6 +3,19 @@ This project is a fork of [LightOpenID](https://github.com/iignatov/LightOpenID)
 
 The only modification is made to the object constructor.
 
+## Getting started
+### Using Composer
+You can install `php-openid` by running
+```
+php composer.phar require leongrdic/openid
+```
+
+### Not using Composer
+You can simply require the `OpenID.php` file from the `src/` folder at the beginning of your script:
+```php
+require_once('OpenID.php');
+```
+
 ## Example usage
 ```php
 $openid = new \Le\OpenID($host, $return_uri, $query, $proxy);
