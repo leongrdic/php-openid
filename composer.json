@@ -1,7 +1,7 @@
 {
   "name": "leongrdic/openid",
   "type": "library",
-  "description": "A fork of iignatov/LightOpenID that enables OpenID authentication in a backend environment",
+  "description": "Fork of iignatov/LightOpenID that enables OpenID authentication in a backend environment",
   "keywords": ["openid", "authentication"],
   "license": "MIT",
   "authors": [
