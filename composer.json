@@ -1,0 +1,25 @@
+{
+  "name": "leongrdic/openid",
+  "type": "library",
+  "description": "A fork of iignatov/LightOpenID that enables OpenID authentication in a backend environment",
+  "keywords": ["openid", "authentication"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mewp",
+      "homepage": "https://code.google.com/p/lightopenid/"
+    },
+    {
+      "name": "Ignat Ignatov",
+      "homepage": "https://github.com/iignatov/LightOpenID"
+    }
+  ],
+  "require": {
+    "php": ">=5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Le\\": "src/"
+    }
+  }
+}
